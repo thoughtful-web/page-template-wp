@@ -1,0 +1,41 @@
+{
+    "name": "thoughtful-web/page-template-wp",
+    "description": "Helpful WordPress page template registration released as free open source software under GNU GPL-2.0+ License",
+	"version": "0.1.0",
+    "type": "library",
+	"keywords": ["WordPress"],
+	"require": {
+		"php": ">=7.3.5"
+	},
+    "license": "GPL-2.0-or-later",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/thoughtful-web/page-template-wp"
+		}
+	],
+    "authors": [
+        {
+            "name": "Zachary Kendall Watkins",
+            "email": "watkinza@gmail.com",
+			"homepage": "https://github.com/zachwatkins/",
+            "role": "Creator"
+        },
+		{
+			"name"    : "Contributors",
+			"homepage": "https://github.com/thoughtful-web/page-template-wp/graphs/contributors"
+		}
+    ],
+	"support": {
+		"issues": "https://github.com/thoughtful-web/page-template-wp/issues",
+		"source": "https://github.com/thoughtful-web/page-template-wp/",
+		"docs": "https://raw.githubusercontent.com/thoughtful-web/page-template-wp/main/README.md"
+	},
+	"readme": "README.md",
+	"autoload": {
+        "psr-4": {
+			"ThoughtfulWeb\\LibraryWP\\": "src/"
+		}
+	},
+	"scripts": {}
+}
